@@ -26,7 +26,7 @@ The dataset includes:
 - 🏀 **Player Per Game Stats**
 - 📈 **Advanced Player Metrics**
 - 📊 **Team Summaries**
-- 🥇 **MVP Award Share Data**  All sourced from [Kaggle: NBA Stats 1947–present](https://www.kaggle.com/datasets).
+- 🥇 **MVP Award Share Data**  All sourced from [Kaggle: NBA Stats 1947–present](https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats).
 
 ---
 
