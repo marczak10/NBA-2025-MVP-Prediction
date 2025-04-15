@@ -1,12 +1,12 @@
 # 🏆 NBA MVP Prediction Project
 
-Welcome to the **NBA MVP Prediction Project**!This is my  try at building a machine learning model to predict who might win the NBA MVP award. I used player stats, team records, and some cool advanced numbers to figure it out. The 2025 MVP race is super exciting with **Nikola Jokić** and **Shai Gilgeous-Alexander** going head to head, so I thought it'd be fun to see what the data says!
+Welcome to the **NBA MVP Prediction Project**! This is my take at building a machine learning model to predict who might win the NBA MVP award. I used player stats, team records, and some cool advanced numbers to figure it out. The 2025 MVP race is super exciting with **Nikola Jokić** and **Shai Gilgeous-Alexander** going head to head, so I thought it'd be fun to see what the data says!
 
 ---
 
 ## 🌟 Project Goal
 
-The main goal is to **predict MVP award shares** using a supervised regression approach. The project leverages historical NBA data from 1982 to 2023 to forecast which players are most likely to win based on stats, impact metrics, and team performance.
+The main goal is to **predict MVP award shares** using a supervised regression approach. The player with the highest share value is the MVP. The project leverages historical NBA data from 1982 to 2024 to forecast which players are most likely to win based on stats, impact metrics, and team performance.
 
 This project explores:
 
@@ -36,7 +36,7 @@ Key steps in preparing the data:
 
 - 🧹 **Cleaning and Merging**: Combined multiple CSV files into a unified dataset.
 - ↻ **Player Filtering**: Kept only the final team ("TOT") row for players traded mid-season.
-- ❌ **Seasonal Scope**: Used data from 1981–2023 for training; 2024 for testing; 2025 for prediction.
+- ❌ **Seasonal Scope**: Used data from 1982–2023 for training; 2024 for testing; 2025 for prediction.
 - 📉 **Handling Nulls**: Filled in missing values, dropped irrelevant columns.
 - 📊 **Feature Engineering**: Removed redundant features and added new ones.
 - ⚖️ **Balancing the Dataset**: Used SMOTE to add synthetic data for the minority class.
@@ -50,7 +50,7 @@ Key steps in preparing the data:
 
 ### 🔍 Feature Selection
 
-- Used the **Boruta algorithm** to select the most predictive features.
+- Used the **Boruta algorithm** to select the most relevant features.
 - Retained only metrics proven statistically significant in MVP outcomes.
 
 ### 📈 Model Evaluation & Yearly Predictions
